@@ -1,4 +1,5 @@
-import { Player } from "./catan/player/Player";
+import Terrain from "./settlerjs/models/board/Terrain";
+import Player from "./settlerjs/models/player/Player";
 
-const player = new Player("RED");
-console.log(JSON.stringify(player));
+const board = new Terrain();
+console.log(board.getTiles());
