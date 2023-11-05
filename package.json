@@ -7,6 +7,17 @@
     "start": "nodemon ./src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "nodemonConfig": {
+    "watch": [
+      "src"
+    ]
+  },
+  "_moduleAliases": {
+    "@src": "dist"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/michielglibert/settler-js.git"
