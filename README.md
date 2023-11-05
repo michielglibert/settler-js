@@ -1,3 +1,5 @@
+![image](https://github.com/michielglibert/settler-js/assets/17138491/01f03cdf-62be-4dcc-9be1-fd7c7003026e)
+
 # settler-js
 
 SettlerJS is an open-source version of the Catan board game written in Typescript.
