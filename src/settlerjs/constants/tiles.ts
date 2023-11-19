@@ -1,4 +1,4 @@
-import TerrainTile from "../models/board/TerrainTile";
+import TerrainTile from "../models/terrrain/TerrainTile";
 
 export const TILES: TerrainTile[] = [
   ...new Array(4).fill(new TerrainTile("FIELDS")),

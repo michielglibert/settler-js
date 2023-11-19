@@ -1,12 +1,12 @@
-import Terrain from "./board/Terrain";
+import Terrain from "./terrrain/Terrain";
 import Player from "./player/Player";
 
 class Game {
-  private board: Terrain;
+  private terrain: Terrain;
   private players: Player[];
 
   constructor(board: Terrain) {
-    this.board = board;
+    this.terrain = board;
     this.players = [];
   }
 
